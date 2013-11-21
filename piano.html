@@ -4,6 +4,7 @@
   <link rel="stylesheet" type="text/css" href="style.css"/>
  </head>
  <body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <style media="screen">
   audio controls {display:none;}</style> 
 <div id="c" class="white"></div>
@@ -23,4 +24,18 @@
 <audio id="fa" src="fa.mp3"</audio>
 <audio id="so" src="so.mp3"></audio>
 </body>
+<script>
+$( ".white" )
+  .on( "mousedown", function() {
+    $( this ).css({
+      "background-color": "grey"
+    });
+  })
+  .on( "mouseup", function() {
+    var styles = {
+      backgroundColor : "white"
+    };
+    $( this ).css( styles );
+  });
+</script>
 </html>
