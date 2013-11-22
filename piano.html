@@ -58,14 +58,58 @@
 <div id="g3-sh" class="black"></div>
 <div id="a3-sh" class="black"></div>
 </div>
-<audio id="do" src="do.mp3"></audio>
-<audio id="re" src="re.mp3"</audio>
-<audio id="mi" src="mi.mp3"></audio>
-<audio id="fa" src="fa.mp3"</audio>
-<audio id="so" src="so.mp3"></audio>
+<audio id="c-mp3" src="c.mp3"></audio>
+<audio id="d-mp3" src="d.mp3"></audio>
+<audio id="e-mp3" src="e.mp3"></audio>
+<audio id="f-mp3" src="f.mp3"></audio>
+<audio id="g-mp3" src="g.mp3"></audio>
+<audio id="a-mp3" src="a.mp3"></audio>
+<audio id="b-mp3" src="b.mp3"></audio>
+<audio id="c1-mp3" src="c1.mp3"></audio>
+<audio id="d1-mp3" src="d1.mp3"></audio>
+<audio id="e1-mp3" src="e1.mp3"></audio>
+<audio id="f1-mp3" src="f1.mp3"></audio>
+<audio id="g1-mp3" src="g1.mp3"></audio>
+<audio id="a1-mp3" src="a1.mp3"></audio>
+<audio id="b1-mp3" src="b1.mp3"></audio>
+<audio id="c2-mp3" src="c1.mp3"></audio>
+<audio id="d2-mp3" src="d2.mp3"></audio>
+<audio id="e2-mp3" src="e2.mp3"></audio>
+<audio id="f2-mp3" src="f2.mp3"></audio>
+<audio id="g2-mp3" src="g2.mp3"></audio>
+<audio id="a2-mp3" src="a2.mp3"></audio>
+<audio id="b2-mp3" src="b2.mp3"></audio>
+<audio id="c3-mp3" src="c3.mp3"></audio>
+<audio id="d3-mp3" src="d3.mp3"></audio>
+<audio id="e3-mp3" src="e3.mp3"></audio>
+<audio id="f3-mp3" src="f3.mp3"></audio>
+<audio id="g3-mp3" src="g3.mp3"></audio>
+<audio id="a3-mp3" src="a3.mp3"></audio>
+<audio id="b3-mp3" src="b3.mp3"></audio>
+<audio id="c4-mp3" src="c4.mp3"></audio>
+<audio id="c-sh-mp3" src="c-sh.mp3"></audio>
+<audio id="d-sh-mp3" src="d-sh.mp3"></audio>
+<audio id="f-sh-mp3" src="f-sh.mp3"></audio>
+<audio id="g-sh-mp3" src="g-sh.mp3"></audio>
+<audio id="a-sh-mp3" src="a-sh.mp3"></audio>
+<audio id="c1-sh-mp3" src="c1-sh.mp3"></audio>
+<audio id="d1-sh-mp3" src="d1-sh.mp3"></audio>
+<audio id="f1-sh-mp3" src="f1-sh.mp3"></audio>
+<audio id="g1-sh-mp3" src="g1-sh.mp3"></audio>
+<audio id="a1-sh-mp3" src="a1-sh.mp3"></audio>
+<audio id="c2-sh-mp3" src="c2-sh.mp3"></audio>
+<audio id="d2-sh-mp3" src="d2-sh.mp3"></audio>
+<audio id="f2-sh-mp3" src="f2-sh.mp3"></audio>
+<audio id="g2-sh-mp3" src="g2-sh.mp3"></audio>
+<audio id="a2-sh-mp3" src="a2-sh.mp3"></audio>
+<audio id="c3-sh-mp3" src="c3-sh.mp3"></audio>
+<audio id="d3-sh-mp3" src="d3-sh.mp3"></audio>
+<audio id="f3-sh-mp3" src="f3-sh.mp3"></audio>
+<audio id="g3-sh-mp3" src="g3-sh.mp3"></audio>
+<audio id="a3-sh-mp3" src="a3-sh.mp3"></audio>
 </body>
 <script>
-$( ".white" )
+$( ".white, .black" )
   .on( "mousedown", function() {
     $( this ).css({
       "transform": "skew(0deg,10deg)"
@@ -76,8 +120,23 @@ $( ".white" )
     var styles = {
       transform : "skew(0deg,0deg)"
     };
-    $( this ).css( styles );
-    
+    $( this ).css( styles );    
+  });
+$( "#c" )
+  .on( "mousedown", function() {
+    document.getElementById('c-mp3').play();
+  });
+$( "#d" )
+  .on( "mousedown", function() {
+    document.getElementById('d-mp3').play();
+  });
+$( "#e" )
+  .on( "mousedown", function() {
+    document.getElementById('e-mp3').play();
+  });
+$( "#f" )
+  .on( "mousedown", function() {
+    document.getElementById('f-mp3').play();
   });
   
 </script>
