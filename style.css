@@ -1,6 +1,126 @@
+#piano {
+    position: relative;
+    height: 150px;
+    width: 1200px;
+    margin-top: 18em;
+    margin-left: 6em;
+       }
+
 .white {
+    position: relative;
     border: 1px solid black;
-    width:50px;
-    height:200px;
+    width:30px;
+    height:170px;
     float: left;
         }
+
+.black {
+    position: absolute;
+    width: 18px;
+    height: 107px;
+    background-color: black;
+    float: left;
+} 
+
+#c-sh {
+    position: absolute;
+    margin-left: 22px;
+    }
+
+#d-sh {
+    position: absolute;
+    margin-left: 55px;
+    }
+
+#f-sh {
+    position: absolute;
+    margin-left: 118px;
+    }
+    
+#g-sh {
+    position: absolute;
+    margin-left: 151px;
+    }
+    
+#a-sh {
+    position: absolute;
+    margin-left: 184px;
+    }
+    
+#c1-sh {
+    position: absolute;
+    margin-left: 247px;
+    }
+    
+#d1-sh {
+    position: absolute;
+    margin-left: 280px;
+    }
+    
+#f1-sh {
+    position: absolute;
+    margin-left: 343px;
+    }
+    
+#g1-sh {
+    position: absolute;
+    margin-left: 376px;
+    }
+    
+#a1-sh {
+    position: absolute;
+    margin-left: 408px;
+    }
+    
+#c2-sh {
+    position: absolute;
+    margin-left: 472px;
+    }
+    
+#d2-sh {
+    position: absolute;
+    margin-left: 504px;
+    }
+    
+#f2-sh {
+    position: absolute;
+    margin-left: 568px;
+    }
+    
+#g2-sh {
+    position: absolute;
+    margin-left: 600px;
+    }
+    
+#a2-sh {
+    position: absolute;
+    margin-left: 632px;
+    }
+    
+#c3-sh {
+    position: absolute;
+    margin-left: 695px;
+    }
+    
+#d3-sh {
+    position: absolute;
+    margin-left: 727px;
+    }
+    
+#f3-sh {
+    position: absolute;
+    margin-left: 791px;
+    }
+    
+#g3-sh {
+    position: absolute;
+    margin-left: 823px;
+    }
+    
+#a3-sh {
+    position: absolute;
+    margin-left: 855px;
+    }
+    
+
+
