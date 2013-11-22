@@ -1,3 +1,4 @@
+//Key animation
 $( ".white, .black" )
   .on( "mousedown", function() {
     $( this ).css({
@@ -10,6 +11,7 @@ $( ".white, .black" )
     };
     $( this ).css( styles );    
   });
+//Key notes
 $( "#c" )
   .on( "mousedown", function() {
     document.getElementById('c-mp3').play();
