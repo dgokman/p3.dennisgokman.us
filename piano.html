@@ -5,6 +5,7 @@
  </head>
  <body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="script.js"></script>
   <style media="screen">
   audio controls {display:none;}</style> 
 <div id="piano">
@@ -108,35 +109,8 @@
 <audio id="g3-sh-mp3" src="g3-sh.mp3"></audio>
 <audio id="a3-sh-mp3" src="a3-sh.mp3"></audio>
 </body>
-<script>
-$( ".white, .black" )
-  .on( "mousedown", function() {
-    $( this ).css({
-      "transform": "skew(0deg,10deg)"
-    });
-  })
-  .on( "mouseup", function() {
-    var styles = {
-      transform : "skew(0deg,0deg)"
-    };
-    $( this ).css( styles );    
-  });
-$( "#c" )
-  .on( "mousedown", function() {
-    document.getElementById('c-mp3').play();
-  });
-$( "#d" )
-  .on( "mousedown", function() {
-    document.getElementById('d-mp3').play();
-  });
-$( "#e" )
-  .on( "mousedown", function() {
-    document.getElementById('e-mp3').play();
-  });
-$( "#f" )
-  .on( "mousedown", function() {
-    document.getElementById('f-mp3').play();
-  });
+
+
   
-</script>
+
 </html>
