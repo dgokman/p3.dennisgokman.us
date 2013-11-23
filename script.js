@@ -1,4 +1,5 @@
 //Key animation
+
 $( ".white, .black" )
   .on( "mousedown", function() {
     $( this ).css({
@@ -11,7 +12,21 @@ $( ".white, .black" )
     };
     $( this ).css( styles );    
   });
+$( ".white, .black" )
+  .on( "mouseenter", function() {
+    $( this ).css({
+      "transform": "skew(0deg,0deg)"
+    });
+  })
+  .on( "mouseleave", function() {
+    var styles = {
+      transform : "skew(0deg,0deg)"
+    };
+    $( this ).css( styles );    
+  });
+  
 //Key notes
+
 $( "#c" )
   .on( "mousedown", function() {
     document.getElementById('c-mp3').play();
@@ -207,36 +222,4 @@ $( "#g3-sh" )
 $( "#a3-sh" )
   .on( "mousedown", function() {
     document.getElementById('a3-sh-mp3').play();
-  });
-$( "#drum1" )
-  .on( "mousedown", function() {
-    document.getElementById('drum1-mp3').play();
-  });
-$( "#drum2" )
-  .on( "mousedown", function() {
-    document.getElementById('drum2-mp3').play();
-  });
-$( "#drum3" )
-  .on( "mousedown", function() {
-    document.getElementById('drum3-mp3').play();
-  });
-$( "#drum4" )
-  .on( "mousedown", function() {
-    document.getElementById('drum4-mp3').play();
-  });
-$( "#cymbal1" )
-  .on( "mousedown", function() {
-    document.getElementById('cymbal1-mp3').play();
-  });
-$( "#cymbal2" )
-  .on( "mousedown", function() {
-    document.getElementById('cymbal2-mp3').play();
-  });
-$( "#cymbal3" )
-  .on( "mousedown", function() {
-    document.getElementById('cymbal3-mp3').play();
-  });
-$( "#cymbal4" )
-  .on( "mousedown", function() {
-    document.getElementById('cymbal4-mp3').play();
   });
