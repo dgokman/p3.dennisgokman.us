@@ -208,3 +208,35 @@ $( "#a3-sh" )
   .on( "mousedown", function() {
     document.getElementById('a3-sh-mp3').play();
   });
+$( "#drum1" )
+  .on( "mousedown", function() {
+    document.getElementById('drum1-mp3').play();
+  });
+$( "#drum2" )
+  .on( "mousedown", function() {
+    document.getElementById('drum2-mp3').play();
+  });
+$( "#drum3" )
+  .on( "mousedown", function() {
+    document.getElementById('drum3-mp3').play();
+  });
+$( "#drum4" )
+  .on( "mousedown", function() {
+    document.getElementById('drum4-mp3').play();
+  });
+$( "#cymbal1" )
+  .on( "mousedown", function() {
+    document.getElementById('cymbal1-mp3').play();
+  });
+$( "#cymbal2" )
+  .on( "mousedown", function() {
+    document.getElementById('cymbal2-mp3').play();
+  });
+$( "#cymbal3" )
+  .on( "mousedown", function() {
+    document.getElementById('cymbal3-mp3').play();
+  });
+$( "#cymbal4" )
+  .on( "mousedown", function() {
+    document.getElementById('cymbal4-mp3').play();
+  });

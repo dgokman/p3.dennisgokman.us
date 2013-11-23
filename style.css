@@ -1,10 +1,25 @@
 #piano {
     position: relative;
-    height: 150px;
-    width: 1200px;
-    margin-top: 18em;
-    margin-left: 6em;
+    height: 500px;
+    width: 1000px;
+    padding-left: 5em;
        }
+
+h1 {
+   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+   font-size: 500%;
+   margin-top: 1em;
+   margin-left: 4em;
+   }
+       
+#top {
+    position: relative;
+    width: 926px;
+    height: 170px;
+    background-image: url('wood.jpg');
+    border: 1px solid black;
+    }
+
 
 .white {
     position: relative;
@@ -12,6 +27,7 @@
     width:30px;
     height:170px;
     float: left;
+    clear: right;
         }
 
 .black {
