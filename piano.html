@@ -116,16 +116,16 @@
   <script src="script.js"></script>
   <script>
        function pickimg(){
-       var imagenumber = 5 ;
-       var randomnumber = Math.random() ;
-       var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1;
+       var i = 5 ;
+       var r = Math.random() ;
+       var x = Math.round( (i-1) * r) + 1;
        images = new Array
        images[1] = "mozart.png"
        images[2] = "beethoven.png"
        images[3] = "bach.gif"
        images[4] = "chopin.jpg"
        images[5] = "joplin.png"
-       var image = images[rand1]
+       var image = images[x]
        document.getElementById('sheetmusic').src = image
      }
 
