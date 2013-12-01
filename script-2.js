@@ -27,7 +27,16 @@ $( ".white, .black" )
   
 //Key notes
 
-$( "#c, #d, #e" )
+var notes=["#c","#d","#e"];
+var mp3 = "-mp3"
+$( notes )
   .on( "mousedown", function() {
-    document.querySelectorAll('#c-mp3, #d-mp3, #e-mp3').play();
+    document.getElementById(notes + mp3).play();
+    console.log(notes + mp3)
   });
+
+
+
+
+
+

@@ -2,8 +2,8 @@
 <head>
   <title>Javascript Piano</title>
   <link rel="stylesheet" type="text/css" href="style.css"/>
- </head>
- <body onLoad="pickimg()">
+</head>
+ <body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   
     <h1>Play Piano!</h1>
@@ -11,7 +11,7 @@
        <h3>(sound not available in Firefox)</h3>
       
        <div id="piano">
-       <a href="" onClick="pickimg();return false;"><img src="mozart.png" id="sheetmusic" alt=""/></a>
+       <img src="mozart.png" id="sheetmusic" alt=""/>
        <div id="top"></div>
        <div id="c" class="white"></div>
        <div id="d" class="white"></div>
@@ -114,22 +114,7 @@
        <audio id="a3-sh-mp3" src="a3-sh.mp3"></audio>
 
   <script src="script.js"></script>
-  <script>
-       function pickimg(){
-       var i = 5 ;
-       var r = Math.random() ;
-       var x = Math.round( (i-1) * r) + 1;
-       images = new Array
-       images[1] = "mozart.png"
-       images[2] = "beethoven.png"
-       images[3] = "bach.gif"
-       images[4] = "chopin.jpg"
-       images[5] = "joplin.png"
-       var image = images[x]
-       document.getElementById('sheetmusic').src = image
-     }
 
-</script>
 
  </body>
 </html>
