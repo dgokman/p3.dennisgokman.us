@@ -27,14 +27,10 @@ $( ".white, .black" )
   
 //Key notes
 
-var notes=["#c","#d","#e"];
-var mp3 = "-mp3"
-$( notes )
-  .on( "mousedown", function() {
-    document.getElementById(notes + mp3).play();
-    console.log(notes + mp3)
-  });
-
+$( ".white, .black" )
+  .on( "mousedown", function(event) {
+    document.getElementById(event.target.id+'-mp3').play(); 
+  }); 
 
 
 
